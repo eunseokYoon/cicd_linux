@@ -33,7 +33,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build Docker image
-        run: docker build -t dweblab/songdo .
+        run: docker build -t eunseokyoon/songdo .
 
       - name: Push Docker image
-        run: docker push dweblab/songdo:latest
+        run: docker push eunseokyoon/songdo:latest
